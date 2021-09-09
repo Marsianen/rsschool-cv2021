@@ -1,1 +1,0 @@
-https://github.com/Marsianen/rsschool-cv.git
