@@ -1,1 +1,1 @@
-https://github.com/Marsianen/rsschool-cv.git
+https://github.com/Marsianen/rsschool-cv/
