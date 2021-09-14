@@ -34,3 +34,44 @@ h2 {
     margin: 0;
     background-color: #90EBA5;
 }
+.english {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.mobile_number, .e_mail {
+    color: black;
+    font-weight: bold;
+}
+.mobile_number:hover, .e_mail:hover {
+    color: coral;
+}
+blockquote {
+    font-style: italic;
+}
+footer {
+    height: 70px;
+    display: flex;
+    background-color: #90EBA5;
+    justify-content: space-around;
+    align-items: center;
+}
+.rs {
+    height: 40px;
+}
+.year {
+    font-size: 20px;
+    font-weight: bold;
+}
+.my_github {
+    display: flex;
+    align-items: center;
+}
+.my_github a {
+    padding-left: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.my_github a:hover{
+    color: coral;
+}
