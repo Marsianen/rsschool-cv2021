@@ -8,12 +8,14 @@ body {
 }
 .container {
     max-width: 1000px;
-    margin: 0 auto;
-    background-color: white;
+    margin: 0 auto; 
+    background-color: #FBEDCE;
 }
 header {
+    border: 4px solid #B99ECC;
     display: flex;
     background-image: url(back_image.jpg);
+
 }
 .foto img{
     width: 200px;
@@ -31,6 +33,7 @@ h1, h2 {
     padding-left: 20px;
 }
 h2 {
+    height: 40px;
     margin: 0;
     background-color: #90EBA5;
 }
@@ -38,11 +41,12 @@ h2 {
     padding-left: 20px;
     padding-bottom: 20px;
 }
-.mobile_number, .e_mail {
+.mobile_number, .e_mail ,.cont_git {
     color: black;
     font-weight: bold;
 }
-.mobile_number:hover, .e_mail:hover {
+
+.mobile_number:hover, .e_mail:hover, .cont_git:hover {
     color: coral;
 }
 blockquote {
@@ -51,16 +55,17 @@ blockquote {
 footer {
     height: 70px;
     display: flex;
-    background-color: #90EBA5;
+    background-color: #B99ECC;
     justify-content: space-around;
     align-items: center;
 }
+
 .rs {
     height: 40px;
 }
 .year {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: bold;    
 }
 .my_github {
     display: flex;
@@ -74,4 +79,25 @@ footer {
 }
 .my_github a:hover{
     color: coral;
+}
+section {
+    border: 4px solid #B99ECC;
+    border-top: 0px;
+}
+pre {
+    margin: 0;
+    background-color: black;
+}
+
+
+@media (max-width:320px){
+    .foto img{
+    width: 160px;
+    }
+}
+
+@media (max-width:280px){
+    .foto img{
+    width: 140px;
+    }
 }
